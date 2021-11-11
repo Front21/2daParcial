@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_reserva"
+            android:title="@string/menu_reserva" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pacientes" />
+
+        <item
+            android:id="@+id/nav_ficha_clinica"
+            android:icon="@drawable/ficha_clinica"
+            android:title="@string/ficha_clinca" />
+    </group>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Cerrar Sesión"
+        android:onClick="logout" />
+
+</menu>

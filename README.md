@@ -1,2 +1,0 @@
-# 2daParcial
-Segunda Parcial

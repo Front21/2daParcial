@@ -1,4 +1,4 @@
-package com.example.segundoparcial;
+package com.example.frontendtp2;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.segundoparcial", appContext.getPackageName());
+        assertEquals("com.example.frontendtp2", appContext.getPackageName());
     }
 }

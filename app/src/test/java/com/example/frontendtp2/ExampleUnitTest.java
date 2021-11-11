@@ -1,4 +1,4 @@
-package com.example.segundoparcial;
+package com.example.frontendtp2;
 
 import org.junit.Test;
 
