@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:minHeight="30dp">
+
+
+    <TextView
+        android:id="@+id/text_id2"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5sp"/>
+
+    <TextView
+        android:id="@+id/text_apellido2"
+        android:layout_width="80dp"
+        android:layout_marginLeft="5sp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_nombre2"
+        android:layout_width="80dp"
+        android:layout_marginLeft="5sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/fechaItem"
+        android:layout_width="80dp"
+        android:layout_marginLeft="5sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:id="@+id/estadoItem"
+        android:layout_width="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/asistenciaItem"
+        android:layout_width="60dp"
+        android:layout_marginLeft="20sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
