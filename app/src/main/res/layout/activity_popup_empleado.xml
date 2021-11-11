@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearCard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.paciente.EmpleadoPopUp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textSeleccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/su_seleccion" />
+
+        <TextView
+            android:id="@+id/editSeleccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noSeleccionado" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80000000"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/text_id"
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="ID"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE Y APELLIDO"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+        <!-- ListView -->
+
+        <ListView
+            android:id="@+id/empleadoPopUp"
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:focusable="auto"
+            app:layout_constraintTop_toBottomOf="parent" />
+    </LinearLayout>
+
+
+</LinearLayout>
