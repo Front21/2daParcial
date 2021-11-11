@@ -1,12 +1,92 @@
 <resources>
-    <string name="app_name">frontendtp2</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="app_name">FrontEndTP2</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Nombre de usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="welcome">"¡Bienvenido/a!"</string>
+    <string name="invalid_username">Nombre de usuario inválido</string>
+    <string name="invalid_password">La contrseña debe tener más de 5 caracteres</string>
+    <string name="login_failed">"Inicio de Sesión fallido"</string>
+    <string name="change_theme">"Cambiar Tema"</string>
+    <string name="ficha_clinca">"Ficha Clinica"</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="settings">settings</string>
+    <string name="settings_theme">theme</string>
+    <integer name="default_theme">0</integer>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Reserva de Fisioterapeutas</string>
+    <string name="nav_header_subtitle">wos.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Pacientes</string>
+    <string name="menu_reserva">Reservas</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Agendar Fisio.</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="theme_title">Tema</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Texto del menu Reserva -->
+    <string name="ID">ID</string>
+    <string name="EMPLEADO">EMPLEADO</string>
+    <string name="NAME">CLIENTE</string>
+    <string name="FECHA">Fecha</string>
+    <string name="ESTADO">ESTADO</string>
+    <string name="ASISTENCIA">ASISTIO</string>
+    <string name="OBS">OBS</string>
+    <string name="OBSERVACION">Ingrese Observacion</string>
+    <string name="turno">Seleccione Turno</string>
+    <string name="turno3">Seleccione Paciente</string>
+    <string name="ASISTIO">Ingrese S (si asistio) o N ()</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_selected_ficha_clinica">Ficha Clínica</string>
+    <string name="title_activity_selected_reserva">SelectedReserva</string>
+    <string name="title_activity_selected_fisio">SelectedFisio</string>
+
+    <!-- Datos referentes a los pacientes -->
+    <string name="NombrePaciente">Nombre:</string>
+    <string name="ApellidoPaciente">Apellido:</string>
+    <string name="EmailPaciente">Email:</string>
+    <string name="TelefonoPaciente">Telefono:</string>
+    <string name="TipoPaciente">Tipo:</string>
+    <string name="FechaNaPaciente">Fecha Nacimiento:</string>
+    <string name="CedulaPaciente">Cédula:</string>
+    <string name="RucPaciente">Ruc:</string>
+    <string name="buttonModificar">Modificar</string>
+    <string name="buttonEliminar">Eliminar</string>
+
+    <!-- Texto del modulo  -->
+    <string name="SelectFiles">Seleccione un Archivo</string>
+    <string name="UploadFiles">Subir</string>
+    <string name="notification">No has seleccionado ningun archivo</string>
+    <string name="ImageDescription"> </string>
+
+    <string name="noExistenElementos">No existen elementos</string>
+    <string name="buscar">Buscar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="noSeleccionado">No Seleccionado</string>
+    <string name="su_seleccion">Su seleccion:</string>
 </resources>
